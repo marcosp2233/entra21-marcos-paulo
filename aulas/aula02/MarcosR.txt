@@ -1,0 +1,31 @@
+17)      let numero = Number(prompt("Escreva um Numero"))
+         console.log(numero)
+         let menos = numero - 1 
+         let soma = numero + 1
+         console.log(menos, soma)
+
+18)   
+
+19)    let largura = 10
+       console.log(largura)
+       let altura = 20
+       console.log(altura)
+       console.log("área = " + altura * largura / 2) 
+
+20)    let preço = 10
+       console.log(preço)
+       let desconto = 1
+       console.log(desconto)
+       let Total = preço - desconto
+       console.log("TOTAL = " + Total)
+       console.log("DESCONTO = " + desconto)
+
+       let preçoA = 100
+       console.log(preçoA)
+       let descontoB = 20
+       console.log(descontoB)
+       let Total1 = preçoA - descontoB
+       console.log("TOTAL = " + Total1)
+       console.log("DESCONTO = " + descontoB)
+
+21)     

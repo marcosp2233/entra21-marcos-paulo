@@ -1,0 +1,27 @@
+comandos 
+
+1) git init
+
+2) code . (abre o visual studio)
+
+3) git add .\primeiro.html
+
+4) git status
+
+5) git commit -m "Mensagem desejada"
+
+6) git config --global user.name "NOME"
+
+7) git config --global user.email "email"
+
+8) git restore --staged "nome do arquivo" ex: primeiro.html
+
+9) git branch -M main
+
+10) git remote add origin https://github.com/marcosp2233/Marcos-Paulo.git
+
+11) git push -u origin main
+
+12) git pull
+
+13) git clone "url do site"

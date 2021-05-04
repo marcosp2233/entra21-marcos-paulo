@@ -1,0 +1,106 @@
+1) let nome = "Marcos"
+ console.log("Oi, meu nome é " + nome)
+
+2) console.log("cadastro de funcionários: \n1) Cadastrar funcionário \n2) Listar funcionários \n3) Editar funcionário \n4) Deletar funcionário \n5) Sair ")
+
+3) let name = "joão"
+   let admin = name
+   console.log(name)
+
+4)  console.log("nome: Marcos \nidade: 17 \npeso: 45km \naltura: 1,65 \ntelefone: 47992094004")
+
+5)     let título = "Harry Potter"
+       let edição = "Colecionador"
+       let autor = "J. K. Rowling"
+       let dataDePublicação = "8 de outubro de 2001"
+        console.log("* Título: " + título)
+        console.log("* Edição: " + edição)
+        console.log("* Autor: " + autor)
+        console.log("* Data de Publicação: " + dataDePublicação)
+
+6)    let dataDeNascimento = '17/01/2001'
+      let quantidadeDeFilhos = '27'
+      let usiário = "Marcos"
+
+7)     let nome = "João"
+       console.log(`Olá ${1}`) // Olá 1
+       console.log(`Olá ${"nome"}`) // Olá nome
+       alert(`Olá ${nome}`) // abre uma caixa na pagina escrito "Olá João"
+
+8)     let x = 10
+       let y = 8
+       let area = (x * y) / 2 + 3 ** 4
+       console.log(area) // a saida é = 121
+
+9)      let a = 2
+        let x = 1 + (a *= 2)
+        console.log(a, x) // (4, 5)  
+
+10) A) "" + 1 + 0 // 1
+    B) "" - 1 + 0 // -1
+    C) 6 / "3" // 2
+    D) "2" * "3" // 6
+    E) 4 + 5 + "px" // 9px
+    F) "$" + 4 + 5 // $45
+    G) "4" - 2 // 2
+
+11) let largura = 20
+    let altura = 10
+    console.log("área = " + altura * largura) // A área do retangulo é 200
+    console.log("perímetro = " + 2*(largura + altura)) // o perímetro é 60
+
+12)   let a = 2
+      let b = 3 
+      let resultado = prompt("resultado 2+3", a + b)
+
+13)    let notaA = 6
+       let notaB = 7
+       // (6 + 7)/2 
+       let resultado = prompt("média = ", 13/2)
+       console.log(resultado) 
+
+14)  
+
+15)  let A = 10 
+     let B = 20 
+     let x = A 
+     A = B
+     B = x
+     console.log("A= " + A, "B= " + B)
+
+16)     let numero = Number(prompt("Digite uma quantidade de mêses"))
+        console.log(numero)
+        let soma = numero * 30
+        console.log(soma)
+
+17)      let numero = Number(prompt("Escreva um Numero"))
+         console.log(numero)
+         let menos = numero - 1 
+         let soma = numero + 1
+         console.log(menos, soma)
+
+18)   
+
+19)    let largura = 10
+       console.log(largura)
+       let altura = 20
+       console.log(altura)
+       console.log("área = " + altura * largura / 2) 
+
+20)    let preço = 10
+       console.log(preço)
+       let desconto = 1
+       console.log(desconto)
+       let Total = preço - desconto
+       console.log("TOTAL = " + Total)
+       console.log("DESCONTO = " + desconto)
+
+       let preçoA = 100
+       console.log(preçoA)
+       let descontoB = 20
+       console.log(descontoB)
+       let Total1 = preçoA - descontoB
+       console.log("TOTAL = " + Total1)
+       console.log("DESCONTO = " + descontoB)
+
+21)     
