@@ -7,7 +7,7 @@ exercicios aula03
 
 2)     console.log(10 > 2) // true
        console.log(5 >= "5") // true
-       console.log(5 >== "5") // error 
+       console.log(5 >== "5") // false
        console.log("apple" > "pineapple") // false
        console.log("2" > "12") // true
        console.log(undefined == null) // true
@@ -66,7 +66,7 @@ exercicios aula03
            console.log("O maior número é: " + numeroC)
        } 
 
-9) 
+9) ?
 
 10)    let numeroA = Number(prompt("escreva um número"))
        let numeroB = Number(prompt("escreva outro número"))
