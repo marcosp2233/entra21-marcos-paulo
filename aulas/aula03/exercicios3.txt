@@ -58,12 +58,13 @@ exercicios aula03
        if (numeroA > numeroB && numeroC) { 
            console.log("O maior número é: " + numeroA)
        }
-       else if (numeroA > numeroB && numeroC) {
+       else if (numeroB> numeroA && numeroC) {
            console.log("O maior número é: " + numeroB)
        }
        else { 
-           (numeroA > numeroB && numeroC)
+           (numeroC> numeroB && numeroA)
            console.log("O maior número é: " + numeroC)
+       } 
 
 9) 
 
@@ -103,4 +104,39 @@ exercicios aula03
         (numero < 0)
         console.log("negativo ")
       }
-         
+
+14)   let salario = Number(prompt("Escreva seu salario"))
+      let prestacao = Number(prompt("Escreva o valor da prestação de um empréstimo"))
+      if (prestacao > 20% salario) {
+        console.log("empréstimo não concedido")
+      }
+      else {
+        console.log("empréstico concedido")
+      }
+
+15)   let time1 = Number(prompt("gols do time 1"))
+      let time2 = Number(prompt("gols do time 2"))
+      if (time1 == time2) {
+        console.log("empate")
+      }
+      else if (time1 > time2) {
+        console.log("time 1 venceu")
+      }
+      else {
+        (time1 < time2)
+        console.log("time 2 venceu")
+      }
+
+16)    let idade = Number(prompt("digite sua idade"))
+       if (idade < 16) {
+      console.log("não precisa votar")
+       }
+      else if (idade > 18) {
+      console.log("voto obrigatório")
+       }
+       else {
+      (idade >= 16)
+      console.log("voto opicional")
+       }
+
+17)   
