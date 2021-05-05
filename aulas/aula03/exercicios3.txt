@@ -1,0 +1,106 @@
+exercicios aula03
+
+1)      console.log(!10) // false
+        console.log(!!"String") // true
+        console.log(!!2.3) // true
+        console.log(Boolean(null)) // false
+
+2)     console.log(10 > 2) // true
+       console.log(5 >= "5") // true
+       console.log(5 >== "5") // error 
+       console.log("apple" > "pineapple") // false
+       console.log("2" > "12") // true
+       console.log(undefined == null) // true
+       console.log(undefined === null) // false
+       console.log(null == "\n0\n") // false
+       console.log(null === +"\n0\n") // false
+
+3)       let numeroA = Number(prompt("Escreva um numero maior que 10")) 
+         if (numeroA > 10) {
+           console.log("o numero é maior que 10")
+         } else {
+           console.log("programa finalizado...")
+         }
+
+4)      let numero = Number(prompt("Escreva um numero")) 
+         if (numero % 2 == 0 ) {
+           console.log(numero / 2)
+         }
+         else {
+           console.log("programa finalizado... ")
+         }
+
+5)      let numero = Number(prompt("Escreva um numero")) 
+         if (numero % 2 == 0 ) {
+           console.log(numero / 2, "O numero é par")
+         }
+         else {
+           console.log(numero, "O numero é impar")
+         }
+
+6)       let numero = Number(prompt("Escreva um numero")) 
+         if (numero > 20 && numero < 90)  {
+           console.log(numero, "O número está na faixa entre 20 e 90")
+         }
+         else {
+           console.log(numero, "O número está fora da faixa")
+         }
+
+7)     Boolean(A > 10 && B <= 20) // false
+       Boolean(A > 10 || B <= 20) // ?
+       Boolean((A === 10 || B > 20) && B === 20) // true 
+       console.log(null || 2 || undefined) // 2
+       Boolean(0 && 1) // false 
+
+8)     let numeroA = Number(prompt("Escreve um número"))
+       let numeroB = Number(prompt("Escreve um número diferente"))
+       let numeroC = Number(prompt("Escreve mais um número"))
+       if (numeroA > numeroB && numeroC) { 
+           console.log("O maior número é: " + numeroA)
+       }
+       else if (numeroA > numeroB && numeroC) {
+           console.log("O maior número é: " + numeroB)
+       }
+       else { 
+           (numeroA > numeroB && numeroC)
+           console.log("O maior número é: " + numeroC)
+
+9) 
+
+10)    let numeroA = Number(prompt("escreva um número"))
+       let numeroB = Number(prompt("escreva outro número"))
+       let numeroC = Number(prompt("escrava outro número"))
+       
+       if (numeroA = numeroB == numeroC) { 
+           console.log("o triângulo equilátero possui 3 lados iguais ")
+       }
+       else if (numeroA = numeroB % numeroC) {
+           console.log("o triângulo Isósceles possui 2 lados iguais ")
+       }
+       else { 
+           console.log("o triângulo Escaleno possui 3 lados diferentes ")
+       }
+
+11)     let numero = Number(prompt("escreva um número"))
+         Math.sqrt(numero)
+        if (numero < 0) {
+         console.log("o número é invalido")
+        }
+
+12)    let numero = Number(prompt("escreva um número"))
+        if (numero % 5 == 0) {
+         console.log("é divisível por 5")
+        }
+        else {
+            console.log("não é divisével")
+        }
+
+13)     let numero = Number(prompt("escreva um número"))
+      if (numero > 0) {  
+        console.log(Math.sqrt(numero))
+      }  
+      else {
+        (numero < 0)
+        console.log("negativo ")
+      }
+         
