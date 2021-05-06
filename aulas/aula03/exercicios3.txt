@@ -139,4 +139,35 @@ exercicios aula03
       console.log("voto opicional")
        }
 
-17)   
+17)   let num1 = Number(prompt("escreva um numero"))
+      let num2 = Number(prompt("escreva outro numero"))
+      let num3 = Number(prompt("escreva mais um numero"))
+        if (num1 >= num2 && num1 >= num3 && num2 >= num3) {
+         console.log(num1, num2, num3)
+        }
+        else if (num1 >= num2 && num1 >= num3 && num3 >= num2) {
+          console.log(num1, num3, num2)
+        }
+        else if (num2 >= num1 && num2 >= num3 && num1 >= num3) {
+          console.log(num2, num1, num3)
+        }
+        else if (num2 >= num1 && num2 >= num3 && num3 >= num1) {
+          console.log(num2, num3, num1)
+        }
+        else if (num3 >= num1 && num3 >= num2 && num1 >= num2) {
+          console.log(num3, num1, num2)
+        }
+        else if (num3 >= num1 && num3 >= num2 && num2 >= num1) {
+          console.lg(num3, num2, num1)
+        }
+
+18)     let idade = Number(prompt("digite sua idade"))
+        if (idade >= 18 && idade <= 67) {
+         console.log("voce pode doar sangue!")
+        }
+        else {
+          console.log("voce não pode doar sangue!")
+        }
+
+19)  
+    
