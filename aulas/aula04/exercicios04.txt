@@ -1,0 +1,78 @@
+1)      let i = 0
+        while (i < 10) {
+           console.log("Ola mundo!")
+           i++ 
+        }
+
+        let i = 0
+        do {
+            console.log("Ola mundo!")
+            i++
+        } while (i < 10)    
+
+        for (let i = 0; i < 3; i++) {
+            console.log("Ola mundo!")
+        }
+
+========================================================
+
+2)      let i = 0
+        while (i < 11) {
+           console.log(`estou esperando pela ${i} vez`)
+           i++ 
+        }
+
+        let i = 0
+        do {
+            console.log(`estou esperando pela ${i} vez`)
+            i++
+        } while (i < 11)  
+
+        for (let i = 0; i < 3; i++) {
+            console.log(`estou esperando pela ${i} vez`)
+        }
+
+=======================================================
+
+3)      for(let i = 10; i > 0; i--) {
+         console.log(i)
+        }
+         console.log("Fim!")
+
+=======================================================
+
+4)       for (let i = 0; i < 3; i++) {
+            let numero1 = +prompt("digite um numero")
+            let numero2 = +prompt("digite outro numero")
+            
+            let subtracao = numero1 - numero2
+           
+            console.log(`${numero1} - ${numero2} = ${subtracao}`)
+        }
+
+=======================================================
+
+5)      for (let i = 0; i < 11; i++) {
+        let numero = 0
+        let soma = numero + 1000
+        console.log(i * soma)
+        }
+
+========================================================
+
+6)      for (let i = 0; i < 5; i++) {
+        let numero1 = +prompt("escreva o primeiro numero")
+        let numero2 = +prompt("escreva o segundo numero")
+        let numero3 = +prompt("escreva o terceiro numero")
+        let numero4 = +prompt("escreva o quarto numero")
+        let numero5 = +prompt("escreva o quinto numero")
+        
+        let soma = numero1 + numero2 + numero3 + numero4 + numero5
+        let media = soma / 5
+        
+        console.log("soma = " + soma )
+      }
+
+    
+
+        
