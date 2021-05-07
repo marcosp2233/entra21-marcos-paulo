@@ -7,9 +7,9 @@ exercicios aula03
 
 2)     console.log(10 > 2) // true
        console.log(5 >= "5") // true
-       console.log(5 >== "5") // false
+       console.log(5 >== "5") // error
        console.log("apple" > "pineapple") // false
-       console.log("2" > "12") // true
+       console.log("2" > "12") // true comparou apenas o primeiro caracter 
        console.log(undefined == null) // true
        console.log(undefined === null) // false
        console.log(null == "\n0\n") // false
@@ -18,9 +18,9 @@ exercicios aula03
 3)       let numeroA = Number(prompt("Escreva um numero maior que 10")) 
          if (numeroA > 10) {
            console.log("o numero é maior que 10")
-         } else {
-           console.log("programa finalizado...")
          }
+           console.log("programa finalizado...")
+         
 
 4)      let numero = Number(prompt("Escreva um numero")) 
          if (numero % 2 == 0 ) {
@@ -47,7 +47,7 @@ exercicios aula03
          }
 
 7)     Boolean(A > 10 && B <= 20) // false
-       Boolean(A > 10 || B <= 20) // ?
+       Boolean(A > 10 || B <= 20) // true
        Boolean((A === 10 || B > 20) && B === 20) // true 
        console.log(null || 2 || undefined) // 2
        Boolean(0 && 1) // false 
@@ -80,7 +80,7 @@ exercicios aula03
        }
        else { 
            console.log("o triângulo Escaleno possui 3 lados diferentes ")
-       }
+       }    //errado, nao funciona
 
 11)     let numero = Number(prompt("escreva um número"))
          Math.sqrt(numero)
@@ -158,11 +158,11 @@ exercicios aula03
           console.log(num3, num1, num2)
         }
         else if (num3 >= num1 && num3 >= num2 && num2 >= num1) {
-          console.lg(num3, num2, num1)
+          console.log(num3, num2, num1)
         }
 
 18)     let idade = Number(prompt("digite sua idade"))
-        if (idade >= 18 && idade <= 67) {
+        if (idade < 67 || idade > 18) {
          console.log("voce pode doar sangue!")
         }
         else {
