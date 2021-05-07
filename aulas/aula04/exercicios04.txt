@@ -70,7 +70,7 @@
         let soma = numero1 + numero2 + numero3 + numero4 + numero5
         let media = soma / 5
         
-        console.log("soma = " + soma )
+        console.log("soma = " + soma .)
       }
 
     
