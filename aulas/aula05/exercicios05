@@ -1,0 +1,47 @@
+1)     let vetor = [], 
+           pares = 0
+       
+        for(let i = 0; i < 10; i++) {
+           vetor[i] = +prompt(`Digite o ${i + 1} valor`)
+          
+           if (vetor[i] % 2 === 0) pares++
+       }
+     
+       console.log(`A quantidades de números pares digitados foi: ${pares}`)
+
+2)     let vetor = []
+        
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt("Digite um número")
+      }
+        let maior = Math.max.apply(null, vetor)
+        console.log(`maior valor ${maior} , se encontra ${vetor.indexOf(maior,1)+1}º posição `)
+        console.log(vetor)
+
+3)      let vetor = []
+        
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt("Digite um número")
+      }
+        let maior = Math.max.apply(null, vetor)
+        console.log(`maior valor ${maior} , se encontra ${vetor.indexOf(maior,1)+1}º posição `)
+        console.log(vetor)
+
+        let menor = Math.min.apply(null, vetor)
+        console.log(`menor valor ${menor} , se encontra ${vetor.indexOf(menor,1)+1}º posição`)
+        console.log(vetor)
+   
+
+
+4)    let vetor = [1, 2, 3, 4, 5]
+      console.log(vetor)
+
+      vetor[0] = 5
+      vetor[1] = 4
+      vetor[2] = 3
+      vetor[3] = 2
+      vetor[4] = 1
+
+      console.log(vetor)
+
+5)     let vetor = [] // usar flag
