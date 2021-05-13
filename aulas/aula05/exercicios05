@@ -44,4 +44,42 @@
 
       console.log(vetor)
 
-5)     let vetor = [] // usar flag
+5)     let vetor = [] 
+
+6)    let vetor = [1, 0, 5, -2, -5, 7]
+      let soma = vetor[0] + vetor[1] + vetor[5]
+      console.log(`soma: ${soma}`)
+      
+      vetor[4] = 100
+
+      console.log(vetor)
+
+
+
+
+7)     let vetor = []
+        
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt("Digite um número")
+         console.log(vetor)
+         let soma = vetor[i] ** 2
+         console.log(soma) 
+        }
+
+8)      let vetor = []
+        
+        for(let i = 0; i < 6; i++) {
+          vetor[i] = +prompt(`Digite numeros pares`)
+          vetor.reverse(); //não consegui fazer sem o reverse
+         
+          if (vetor[i] % 2 === 0) {
+             console.log(vetor)
+          }
+        
+          else {
+            console.log("O numero não é par")
+            break
+          }
+       } 
+        
+9)     
