@@ -67,3 +67,16 @@
     let altura = +prompt("Digite sua altura")
 
 7)    
+
+8)  function totalDias(anos ,meses ,dias){
+        return(anos * 365) + (meses * 30) + dias
+   
+    }
+   
+    let anos = +prompt("Quantos anos você tem")
+        meses = +prompt("Quantos mêses você tem"),
+        dias = +prompt("Quantos dias você tem"),
+
+    let totalDias = totalDias(anos,meses,dias)
+   
+        console.log(`Seu total de dias de vida é ${totalDias}`)
