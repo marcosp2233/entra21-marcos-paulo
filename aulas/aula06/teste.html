@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <body>
+     <script>
+              
+            let matriz = []
+              let x = 0
+           
+              for (let linha = 0; linha < 3; linha++) {
+                matriz[linha] = []
+                for (let coluna = 0; coluna < 3; coluna++) {
+                    matriz[linha][coluna] = +prompt(`Digite o valor da ${linha + 1}a linha na ${coluna + 1} coluna`)
+
+                    if (matriz[linha][coluna] < 1) {
+                        x++
+                        
+                      console.log(`O x esta na linha ${matriz[linha]}`)
+                    }
+                }
+            }
+
+     </script>
+   </body>
+</html>

@@ -1,0 +1,63 @@
+1) 
+      function ehPositivo(numero) {
+                if (numero > 0) {
+                    return true
+                }
+            
+            let numero = +prompt ("Digite um numero")
+            console.log(ehPositivo(numero))
+
+2)           function minimo(a, b) {
+
+                if (a > b) {
+                   return true
+              }
+            }
+
+            let a = +prompt("Digite um valor para a"),
+                b = +prompt("Digite um valor para b")
+
+            if (a > b) {
+                alert("o menor valor é b")
+            } else {
+                alert("o menor valor é a")
+            }
+
+3)       function potencia(a, b) {
+         let resultado = a ** b 
+
+         alert(resultado)
+      }
+
+4)      function notas(notaA, notaB, notaC){
+        return media = (notaA + notaB + notaC) / 2
+           
+        alert(media)
+      }
+
+5)  
+
+6)    // não funciona
+      let sexo = +prompt("Seu sexo é? \nM - Masculino \nF - Feminino").toUpperCase();
+     
+      let altura = +prompt("Digite sua altura")
+
+      switch (sexo) {
+          case "M":
+          function pesoMasculino(){
+              let pesoM = (72.7 * altura) - 58
+
+              alert(`Seu peso ideal é ${pesoM}`)
+          }
+        break;
+          
+          case "F":
+          function pesoFeminino() {
+               let pesoF = (62.1 * altura) - 44.7
+
+               alert(`Seu peso ideal é ${pesoF}`)
+          }
+         break;
+      }    
+
+7)    
