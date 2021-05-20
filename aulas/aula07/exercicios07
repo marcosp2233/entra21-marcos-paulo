@@ -38,7 +38,7 @@
               nota2 = +prompt("Digite a segunda nota"),
               nota3 = +prompt("Digite a terceira nota")
 
-         let media = (nota1 + nota2 + nota3) / 2
+         let media = (nota1 + nota2 + nota3) / 3
 
 
 5)    

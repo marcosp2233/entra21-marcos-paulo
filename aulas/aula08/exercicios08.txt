@@ -1,3 +1,37 @@
 1) Crie uma função que receba uma array e retorne o primeiro e o último elemento desse array como um novo.
 O array pode ter qualquer tamanho.
 
+        function receberArray(primeiro, ultimo) {
+     
+          }
+         let vetor = []
+
+
+         for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt("Digite um número")
+         }
+         
+        let ultimo = Math.max.apply(null, vetor)
+        console.log(`o ultimo valor ${ultimo} , se encontra ${vetor.indexOf(ultimo,1)+1}º posição `)
+        console.log(vetor)
+
+        let primeiro = Math.min.apply(null, vetor)
+        console.log(`o primeiro valor ${primeiro} , se encontra ${vetor.indexOf(primeiro,1)+1}º posição`)
+        console.log(vetor)
+
+2)  Crie uma função que recebe um número como parâmetro e retorne uma string com o símbolo "#" na quantidade
+    especificada no parâmetro.
+    Exemplo:
+    mostraSimbolo(10) // ##########
+
+         function mostraSimbolo(numero) {
+         let = ""
+
+         if (numero > 0) {
+           numero = "#"
+           console.log(numero)
+         } 
+           
+         }
+
+3) 
