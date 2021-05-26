@@ -1,0 +1,94 @@
+1)       let meses = +prompt("Digite uma quantidade de meses")
+         
+         let dias = meses * 30
+
+         console.log(`${meses} meses tem ${dias} dias `)
+
+2)   let preço = +prompt("Digite o preço do produto")
+     let percentual = +prompt("Digite o percentual de desconto")
+     let desconto = preço * (percetual / 100)
+     let total = preço - desconto
+
+     alert(`total = ${total} \n desconto = ${desconto} `)
+
+if
+
+1)   let numero = +prompt("Digite um numero")
+
+     if (numero % 2 === 0) {
+         console.log("o numero é par")
+     } else {
+         console.log("O numero é impar")
+     }
+
+2)   let salario = +prompt("Digite o seu salario"),
+         prestaçao = +prompt("Digite o valor da prestação do emprestimo")
+   
+     let porcentagemSalario = 0.2*salario
+     if (prestaçao > porcentagemSalario) {
+         console.log("emprestimo negado")
+     } else { 
+         console.log("emprestimo concedido")
+     }
+
+3)   let lado1 = +prompt("Digite o valor do primeiro lado de um trangulo"),
+         lado2 = +prompt("Digite o valor do segundo lado de um trangulo"),
+         lado3 = +prompt("Digite o valor do terceiro lado de um trangulo")
+
+        if (lado1 == lado2 && lado1 == lado3) {
+          console.log("Triângulo Equilátero: possui os 3 lados iguais.")
+        }
+         else if (lado1 == lado2 && lado1 != lado3) {
+            console.log("Triângulo Isósceles: possui 2	lados iguais.")
+         } else {
+           console.log("Triângulo Escaleno: possui 3 lados diferentes.")
+         }
+
+
+loops
+
+1)   let soma = 0
+    
+    for (let i = 0; i < 5; i++) {
+      let numero = +prompt("Digite um numero")
+
+      soma += numero
+    }
+   
+    let media = soma / 5
+    console.log(` A soma dos numeros é: ${soma} \n A media dos numeros é: ${media.toFixed(2)} `)
+
+vetor 
+
+     let valor = [] 
+    
+    for (let lado = 0; lado < 3; lado++ ){
+      valor[lado] = +prompt(`digite o valor do ${lado + 1}º lado`)
+    
+      
+      if (valor[1] == valor[2] && valor[1] == valor[3] ) {
+        console.log("Triângulo Equilátero: possui os 3 lados iguais.")
+      }
+      else if (valor[1] == valor[2] && valor[1] != valor[3]) {
+        console.log("Triângulo Isósceles: possui 2	lados iguais.")
+      }
+      else {
+          
+      }
+    }
+
+testes
+
+        function subtracao(numero1, numero2) {
+         console.log(`Numero1:${numero1}\nNumero2: ${numero2}`)
+          let resultado = numero1 - numero2
+            alert(resultado)
+        }
+       
+       let a = -3 
+       let b = 4
+       //subtracao(a, b) -10
+
+
+
+   
