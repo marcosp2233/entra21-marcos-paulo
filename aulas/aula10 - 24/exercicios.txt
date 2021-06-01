@@ -1,0 +1,11 @@
+1) 
+        function estaVazio(objeto) {
+             return !objeto.keys(objeto).length
+         }
+
+         chave
+
+2)     
+         
+
+3)
