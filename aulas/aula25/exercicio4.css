@@ -1,0 +1,27 @@
+body {
+        background-color: rgb(64, 64, 74);
+        font-family: Arial;
+ }
+
+ .titulo {
+     color: rgb(198, 219, 155);
+
+ }
+
+ .texto {
+     color: white;
+     font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+ }
+
+ .dolore {
+     color: rgb(198, 219, 155);
+ }
+
+ a{
+     color:white
+ }
+ .color {
+    color: rgb(198, 219, 155);
+ }
