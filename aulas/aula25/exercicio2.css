@@ -3,3 +3,13 @@
     line-height: 1.5;
     text-indent: 30px;
 }
+
+.paragrafoVermelho {
+    color: red;
+    line-height: 1.5;
+    text-indent: 30px;
+}
+.linhaAzul{
+    color:blue;
+    line-height: 1.5;
+}
