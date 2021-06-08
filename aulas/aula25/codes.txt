@@ -2,3 +2,7 @@ http://www.lsi.usp.br/~help/html/iso.html
 tabela de caracters
 
 link.css (gera o link do css)
+
+border-radius: 50px
+
+overflow: visible;  auto;
