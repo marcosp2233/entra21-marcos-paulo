@@ -34,23 +34,50 @@ h1 {
    color: white;
 }
 
-nav {
-   
-    background-color: #ffffff;
-    color: #636363;
-    position: absolute;
-    width: 64em;
-    max-width: calc(100% - 4em);
-    padding: 1em;
-    background-color: #f7f7f7;
-    border-top-left-radius: 0.25em;
-    border-top-right-radius: 0.25em;
-    cursor: default;
+.nav {
+    padding: 20px;
     text-align: center;
+    background-color: white;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    color: #636363;
 
 }
-.botao {
-   
 
+.titulo1 {
+    margin: 50px 80px;
+    color: #636363;
+    font-size: 27px;
+    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 }
+
+
+.content {
+    width: 60%;
+    float: left;
+}
+
+.imagem {
+   width: 40%;
+   float: right;
+   text-align: center;
+}
+
+.imagem img {
+   border-radius: 50%;
+}
+
+.texto1 {
+   margin: 50px 80px;
+   color: #636363;
+}
+
+
 
