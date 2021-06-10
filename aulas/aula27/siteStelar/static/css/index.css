@@ -56,6 +56,7 @@ h1 {
     color: #636363;
     font-size: 27px;
     background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    
 }
 
 
@@ -79,5 +80,19 @@ h1 {
    color: #636363;
 }
 
+.button {
+    padding: 50px 80px 50px 50px;
+    background: #dee0e3;
+    font-size: 15px;
+    color: #636363;
+    border-bottom: dotted 1px;
+    text-decoration: none;
+}
 
+.ti2 {
+    
+    color: #636363;
+    font-size: 27px;
+    
+}
 
