@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: 'Arial Narrow';
+    -webkit-text-size-adjust: none;
+}
+
+.head{
+    background-attachment: scroll, scroll;
+    background-image: url(../img/background.jpg);
+    background-position: top left, top left;
+    background-repeat: repeat, no-repeat;
+    background-size: 150%;
+ 
+    line-height: 3.5em;
+    margin: 0;
+    font-size: 0.70em;
+    padding: 4.5em 1.5em;
+}
+
+.head img {
+    border-radius: 100%;
+    width: 30%;
+}
+
+h1 {
+    color: #787878;
+    
+}
+
+.branco {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.link1 {
+    color: #787878;
+    text-decoration: none;
+}
+
+.major h2{
+   
+    font-size: 1.35em;
+    color: #787878;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+.carroBranco {
+   border-radius: 1.35mm;
+}
+
+h3 {
+    color: #787878;
+}
+
