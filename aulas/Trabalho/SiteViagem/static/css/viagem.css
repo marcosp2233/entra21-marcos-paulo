@@ -1,12 +1,83 @@
 body {
    background-color: rgb(204, 199, 199);
+   
 }
 
 h1 {
+   color: rgb(226, 221, 221);
    text-align: left;
+   margin-left: 40px;
+   text-shadow: 3px 1px black;
+
 }
 
 .head {
-    background-color: rgb(148, 148, 148);
+   margin: auto;
+   background: rgb(148, 148, 148);   
+   padding: 15px;           
 }
 
+
+nav .icons {
+  
+   background: rgb(204, 199, 199);
+   margin-right: 40px;
+   margin-left: 70%;
+   margin-top: -70px;
+   border-radius: 10px;
+   border: 20px solid  rgb(204, 199, 199);
+}
+
+.icons {
+   display: flex;
+   list-style: none;
+   padding: 5px;
+   
+}
+
+.button {
+   display: block;
+   text-decoration: none;
+   padding: 20px;
+   background-color: rgb(73, 86, 124);
+   color:white;
+
+}
+
+
+.white {
+   margin: auto;
+   background: #dee0e3;
+   width: 80%;
+   border-radius: 10px;
+   max-width: calc(100% - 4em);
+}
+
+img {
+  display: block;
+  margin-bottom: 40px;
+  margin-right: auto;
+  width: 36%;
+  
+}
+
+.img1 img{
+   border: 10px solid rgb(94, 94, 94);  
+   border-radius: 10px;
+}
+.img2 img{
+   border: 10px solid rgb(94, 94, 94);  
+   border-radius: 10px;
+}
+.img3 img{
+   border: 10px solid rgb(94, 94, 94);  
+   border-radius: 10px;
+}
+.img4 img{
+   border: 10px solid rgb(94, 94, 94);  
+   border-radius: 10px;
+}
+.img5 img{
+   border: 10px solid rgb(94, 94, 94);  
+   border-radius: 10px;
+}

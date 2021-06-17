@@ -18,36 +18,91 @@
     <div class="linkRedes">
 
     </div>
+    <nav>
+        <ul class="icons">
+            <li><a href="#"><img src="static/img/Github.png" alt="github"> </a></li>
+            <li><a href="#"><img src="static/img/Twitter.webp" alt="Twitter"></a></li>
+            <li><a href="#"><img src="static/img/facebook.png" alt="facebook"></a></li>
+        </ul>
+    </nav>
 
     
    </header> 
-   <div class="listaitens">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-
-   <main>
+  
+  <style>
+   .dropbtn {
+    background-color: #4a4b80;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #6c6d9b;
+  }
+  </style>
+  
+  
+  <div class="dropdown">
+    <button class="dropbtn">ITENS PARA VIAGEM</button>
+    <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+    </div>
+  </div>
+  
+   <div class="white">
+  
+    <main>
       <div>
           <ul>
-              <li> <img src="static/img/tamanho-beto-carrero-world-1024x614.jpg" alt="betoCarrero">   </li>
+              <li class="img1"> <h2>Beto Carrero</h2> <img src="static/img/tamanho-beto-carrero-world-1024x614.jpg" alt="betoCarrero"> </li>
              
-              <li> <img src="static/img/a-praia-de-bombas-e-a.jpg" alt="praia"> </li>
+              <li class="img2"> <h2> Pria de Bombas</h2>  <img src="static/img/a-praia-de-bombas-e-a.jpg" alt="praia"> </li>
              
-              <li> <img src="static/img/morro-azul-776x439.jpg" alt="morro"> </li>
+              <li class="img3"> <h2>Morro Azul</h2> <img src="static/img/morro-azul-776x439.jpg" alt="morro">  </li>
              
-              <li> <img src="static/img/casas bahia.jpg" alt="casas">  </li>
+              <li class="img4"> <h2>Casas Bahia</h2> <img src="static/img/casas bahia.jpg" alt="casas">  </li>
              
-              <li> <img src="static/img/103_503504322.jpg" alt="subway"> </li>
+              <li class="img5"> <h2>Subway</h2> <img src="static/img/103_503504322.jpg" alt="subway">  </li>
           </ul>
       </div>
 
 
-   </main>
-
+    </main>
+  </div>
 
 
 
