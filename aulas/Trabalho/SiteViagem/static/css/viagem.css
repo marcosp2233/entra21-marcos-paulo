@@ -1,5 +1,6 @@
 body {
    background-color: rgb(204, 199, 199);
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 
@@ -18,22 +19,27 @@ h1 {
 }
 
 
-nav .icons {
+nav .icons  {
   
    background: rgb(204, 199, 199);
    margin-right: 40px;
    margin-left: 70%;
    margin-top: -70px;
    border-radius: 10px;
-   border: 20px solid  rgb(204, 199, 199);
 }
 
 .icons {
    display: flex;
    list-style: none;
    padding: 5px;
+   justify-content: space-evenly;
    
 }
+
+nav .icons img {
+    margin: 0 auto;
+}
+
 
 .button {
    display: block;
@@ -61,23 +67,28 @@ img {
   
 }
 
-.img1 img{
-   border: 10px solid rgb(94, 94, 94);  
+
+
+.img1 img{ 
    border-radius: 10px;
 }
 .img2 img{
-   border: 10px solid rgb(94, 94, 94);  
+   
    border-radius: 10px;
 }
 .img3 img{
-   border: 10px solid rgb(94, 94, 94);  
+   
    border-radius: 10px;
 }
 .img4 img{
-   border: 10px solid rgb(94, 94, 94);  
+  
    border-radius: 10px;
 }
 .img5 img{
-   border: 10px solid rgb(94, 94, 94);  
+ 
    border-radius: 10px;
+}
+
+ul {
+   list-style-type: none;
 }
