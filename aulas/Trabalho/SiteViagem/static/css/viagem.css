@@ -71,24 +71,38 @@ img {
 
 .img1 img{ 
    border-radius: 10px;
+   margin-left: 32%;
 }
 .img2 img{
    
    border-radius: 10px;
+   margin-left: 32%;
 }
 .img3 img{
    
    border-radius: 10px;
+   margin-left: 32%;
 }
 .img4 img{
   
    border-radius: 10px;
+   margin-left: 32%;
 }
 .img5 img{
  
    border-radius: 10px;
+   margin-left: 32%;
 }
 
 ul {
    list-style-type: none;
+}
+
+h2 {
+   text-align: center;
+   color: #4a4b80;
+}
+p {
+   text-align: center;
+   color: rgb(117, 117, 117);
 }
