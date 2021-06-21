@@ -15,7 +15,7 @@ h1 {
 .head {
    margin: auto;
    background: rgb(148, 148, 148);   
-   padding: 15px;           
+   padding: 15px;     
 }
 
 
@@ -55,7 +55,7 @@ nav .icons img {
    margin: auto;
    background: #dee0e3;
    width: 80%;
-   border-radius: 10px;
+   border-radius: 20px;
    max-width: calc(100% - 4em);
 }
 
@@ -66,8 +66,6 @@ img {
   width: 36%;
   
 }
-
-
 
 .img1 img{ 
    border-radius: 10px;
