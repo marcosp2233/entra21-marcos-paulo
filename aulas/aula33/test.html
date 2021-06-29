@@ -3,19 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="img.css">
+    <link rel="stylesheet" href="rato.css">
     <title>Document</title>
 
 </head>
 <body>
    
-    <img src="rato.png" alt="rato">
-   
-   
+    <div id="pane">
+        <div id="rato">
+            <pre>
+             _   _
+            (q\_/p)
+             /. .\
+            =\_t_/=   __
+             /   \   (
+            ((   ))   )
+            /\) (/\  /
+            \  Y  /-'
+             nn^nn
+             </pre>
+        </div>
+      </div>
+ 
    
    <script>
-        let div = document.querySelector("#selecionavel")
-        div.tabIndex = 0
-    </script>
+ 
+  let pane = $('#pane'),
+    box = $('#rato'),
+    w = pane.width() - box.width(),
+    d = {},
+    x = 3;
+
+function newv(v,a,b) {
+    let n = parseInt(v, 10) - (d[a] ? x : 0) + (d[b] ? x : 0);
+    return n < 0 ? 0 : n > w ? w : n;
+}
+
+$(window).keydown(function(e) { d[e.which] = true; });
+$(window).keyup(function(e) { d[e.which] = false; });
+
+setInterval(function() {
+    box.css({
+        left: function(i,v) { return newv(v, 37, 39); },
+        top: function(i,v) { return newv(v, 38, 40); }
+    });
+}, 20);
+    
+     </script>
 </body>
 </html>
