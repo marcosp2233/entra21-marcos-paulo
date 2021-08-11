@@ -1,0 +1,22 @@
+{
+  "name": "entra21-marcos-paulo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosp2233/entra21-marcos-paulo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcosp2233/entra21-marcos-paulo/issues"
+  },
+  "homepage": "https://github.com/marcosp2233/entra21-marcos-paulo#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
